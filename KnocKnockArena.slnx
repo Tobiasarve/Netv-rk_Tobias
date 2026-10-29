@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KnockKnockArena.Demo.M01Bits/KnockKnockArena.Demo.M01Bits.csproj" />
+    <Project Path="src/KnockKnockArena.Server/KnockKnockArena.Server.csproj" />
+    <Project Path="src/KnockKnockArena.Shared/KnockKnockArena.Shared.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/KnockKnockArena.Tests.m01/">
+    <Project Path="tests/KnockKnockArena.Tests.m01/KnockKnockArena.Tests.M01.csproj" />
+  </Folder>
+</Solution>
