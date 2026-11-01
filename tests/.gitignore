@@ -1,0 +1,34 @@
+# KnockKnock Arena – .gitignore fra Modul 4 (erstatter hele den gamle fil)
+
+# .NET: byggeresultater og testresultater
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+
+# Visual Studio og Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Unity: mapper og filer, Unity selv laver, når KnockKnockClient åbnes
+KnockKnockClient/[Ll]ibrary/
+KnockKnockClient/[Tt]emp/
+KnockKnockClient/[Ll]ogs/
+KnockKnockClient/[Uu]ser[Ss]ettings/
+KnockKnockClient/[Bb]uild/
+KnockKnockClient/[Bb]uilds/
+KnockKnockClient/*.csproj
+KnockKnockClient/*.sln
+
+# Byg af spillet i roden af repoet
+/Build/
+/Builds/
+
+# Serverens konti (password-hashes) skal aldrig i git
+data/accounts.json
+
+# Windows og macOS
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
